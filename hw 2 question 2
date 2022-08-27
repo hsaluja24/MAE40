@@ -1,4 +1,4 @@
-% code for the A\b calculations in part 1d %
+% code for the A\b calculations in part 2d %
 
 syms a d s V0 ; b=1e3; c=5E2; 
 A=[b 0 1 1 -1 0 0 0; 0 0 1 1 0 -1 0 0; 0 b 0 0 0 0 1 0; ...
