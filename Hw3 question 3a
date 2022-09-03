@@ -1,0 +1,6 @@
+% code for the A\b calculations in question 3, part a %
+
+syms a d s V0 m Vm i ; b=1e3; c=5E2; 
+A=[b 0 -1 1 1 1 -1 0; 0 0 1 1 1 0 -1 0; 0 c 0 0 0 0 1 0; ...
+   0 0 d*s 0 -1 0 0 1; 0 b 0 i*s 1 0 -1 1; 0 0 0 0 1 0 -1 0; 0 0 a*s 0 0 1 0 -1];
+b=[Vm; i; a; V0; d; m; 0]; x=A\b
